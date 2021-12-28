@@ -13,7 +13,6 @@ jobs:
       - uses: subosito/flutter-action@v1
         with:
           channel: stable
-          webRenderer: html
       - run: flutter pub get
       - run: flutter test
       - uses: bluefireteam/flutter-gh-pages@v7
